@@ -64,9 +64,9 @@ const { othermenu } require('./database/menu/othermenu')*/
 /******LOAD OF VCARD INPUT******/
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:5.0\n' 
-            + 'FN:Bot_Mashiro\n' // Nama kamu
-            + 'ORG:Bot_Mashiro;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=6283191735552:+62 831-9173-5552\n' //Nomor whatsapp kamu
+            + 'FN:Bot_Rio\n' // Nama kamu
+            + 'ORG:Owner takagisan;\n' // Nama bot
+            + 'TEL;type=CELL;type=VOICE;waid=62895605980121:+62 895-6059-80121\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 /******END OF VCARD INPUT******/
 
@@ -255,7 +255,7 @@ async function starts() {
         		const bolehkah = ['Boleh','Tidak boleh','Iya','Sangat di anjurkan','Tidak','Mingkin','Mungkin tidak','Jangan','Tentu saja','Coba tanyakan lagi']
 		        const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi','Dua Tahun Lagi','Dua Bulan Lagi','Dua Hari Lagi']
 			const botNumber = client.user.jid
-			const ownerNumber = ["6283191735552@s.whatsapp.net"] // replace this with your number
+			const ownerNumber = ["62895605980121@s.whatsapp.net"] // replace this with your number
 			const nomorOwner = [ownerNumber]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
@@ -273,9 +273,9 @@ async function starts() {
 			const isOwner = ownerNumber.includes(sender)
                         const isUser = user.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '6283191735552@s.whatsapp.net'
+                        const NomerOwner = '62895605980121@s.whatsapp.net'
                         /******ApiKey Input******/
-                        const BarBarKey = 'YOUR_APIKEY'
+                        const BarBarKey = 'lGjYt4zA5SQlTDx9z9Ca'
                         /******End of ApiKey Input******/
 
 			const isUrl = (url) => {
