@@ -70,8 +70,9 @@ const vcard = 'BEGIN:VCARD\n'
             + 'END:VCARD'
 /******END OF VCARD INPUT******/
 
-prefix = '!'
-blocked = []
+prefix = '>'
+blocked = [] 
+
 
 /******BEGIN OF FUNCTIONS INPUT******/
 const getLevelingXp = (userId) => {
