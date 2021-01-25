@@ -3,7 +3,7 @@ const help = (prefix, ownerBot, botName) => {
 「 *Bot_Takagisan* 」
 
 👋️ *Yahalo Minna-San*
-  「My Owner > 083191735552 Or wa.me/628319173552
+  「My Owner > 0895605980121 Or wa.me/62895605980121
   ┡➪☾ ⌨️BOT Commands⌨️ ☽
   ┠➵ *${prefix}help*
   ┠➵ ${prefix}timer*
@@ -146,6 +146,6 @@ const help = (prefix, ownerBot, botName) => {
  ➥╿➵ ${prefix}doujinmoee*
  ➥╿➵ ${prefix}randomhentai*
  ➥╿➵ ${prefix}nekohentai*
- *GROUP BOT_TAKAGISAN:https://chat.whatsapp.com/EcIp7XK3fB70JzzTCNnfYz`
+ *GROUP BOT_TAKAGISAN:-`
 }
 exports.help = help
