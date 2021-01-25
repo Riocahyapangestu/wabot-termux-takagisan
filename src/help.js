@@ -1,6 +1,6 @@
 const help = (prefix) => {
 	return `
-「 *BOT_Levi Vers.4.3* 」
+「 *BOT_Takagisan.4.3* 」
 ╿
 ┡➪☾ ⌨️BOT Commands⌨️ ☽
   ┠➵ *!help*
