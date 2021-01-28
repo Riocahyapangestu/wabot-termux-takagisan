@@ -4,7 +4,7 @@ const stickermaker = (prefix, botName, ownerName) => {
 ◪ *INFO*
   ❏ Prefix: 「  ${prefix}  」
   ❏ Creator: ${ownerName}
-  ❏ Version: 「  2.4.9  」
+  ❏ Version: *「  2.4.9  」*
 ◪ *ABOUT*
   │
   ├─ ❏ ${prefix}info
