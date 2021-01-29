@@ -4,6 +4,8 @@ const help = (prefix, ownerBot, botName) => {
 
 👋️ *Yahalo Minna-San*
   「My Owner > 0895605980121 Or wa.me/62895605980121
+  ┡My Admin > 085856248008 Or wa.me/6285856248008
+  ┡My Admin > 082384086981 Or wa.me/6282384086981
   ┡➪☾ ⌨️BOT Commands⌨️ ☽
   ┠➵ *${prefix}help*
   ┠➵ ${prefix}timer*
