@@ -62,7 +62,7 @@ const { othermenu } require('./database/menu/othermenu')*/
 /******END OF MENU INPUT******/
 
 /******LOAD OF VCARD INPUT******/
-const vcard = 'BEGIN:VCARD\n'
+const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:5.0\n' 
             + 'FN:Bot_Rio\n' // Nama kamu
             + 'ORG:Owner takagisan;\n' // Nama bot
