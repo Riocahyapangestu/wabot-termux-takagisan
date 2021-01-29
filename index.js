@@ -62,9 +62,9 @@ const { othermenu } require('./database/menu/othermenu')*/
 /******END OF MENU INPUT******/
 
 /******LOAD OF VCARD INPUT******/
-const vcard = 'BEGIN:VCARD;\n'
-            + 'VERSION:5.0;\n' 
-            + 'FN:Bot_Rio;\n' // Nama kamu
+const vcard = 'BEGIN:VCARD\n'
+            + 'VERSION:5.0\n' 
+            + 'FN:Bot_Rio\n' // Nama kamu
             + 'ORG:Owner takagisan;\n' // Nama bot
             + 'TEL;type=CELL;type=VOICE;waid=62895605980121:+62 895-6059-80121\n' //Nomor whatsapp kamu
             + 'END:VCARD'
