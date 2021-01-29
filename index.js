@@ -64,7 +64,7 @@ const { othermenu } require('./database/menu/othermenu')*/
 /******LOAD OF VCARD INPUT******/
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:5.0\n' 
-            + 'FN:Bot_Rio\n' // Nama kamu
+            + 'FN:Bot_Rio;\n' // Nama kamu
             + 'ORG:Owner takagisan;\n' // Nama bot
             + 'TEL;type=CELL;type=VOICE;waid=62895605980121:+62 895-6059-80121\n' //Nomor whatsapp kamu
             + 'END:VCARD'
@@ -244,7 +244,7 @@ async function starts() {
 					Iv: '❌ Link ERROR Onichan ❌'
 				},
 				only: {
-					group: '[❗] *Gomenasai..ini fitur prabayar* Silahkan Hubungi >083191735552 wa.me/6283191735552 Untuk pembayaran! ❌',
+					group: '[❗] *Gomenasai..ini fitur prabayar* Silahkan Hubungi >0895605980121 wa.me/62895605980121 Untuk pembayaran! ❌',
 					ownerG: '[❗] BAKA..BAKAA..BAKAA! Fitur Khusus OwnerGroup Desu ❌',
 					ownerB: '[❗] *BAKAJANAINO*? Khusus OwnerBot Desu! ❌',
 					admin: '[❗]  *Baka...!* Fitur Khusus Admin Group Desu..! ❌',
